@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de tabuada</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Digite qual a tabuada e até onde deve ser calculado!</h1>
+    <form id="form-space">
+        <div class="form-container">
+            <label for="number">tabuada do:</label>
+            <input type="number" name="number" id="number" placeholder="2">
+        </div>
+        
+        <div class="form-container">
+            <label for="multiplicador">até:</label>
+            <input type="number" name="multiplicador" id="multiplicador" value="10">
+        </div>
+        <input type="submit" value="calcular" id="submit-btn">
+    </form>
+    <h2 id="multi-title">Tabuada do: <span></span></h2>
+    <section class="result-box">
+        <h3 id="alerta">informe um número  para calcular uma tabuada...</h3>
+        
+    </section>
+</body>
+</html>
